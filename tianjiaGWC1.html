@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #gwc{
+            width: 413px;
+            /*height: 260.4px;*/
+            background-color: white;
+            position: absolute;
+            left: 0;
+            top:140px;
+            z-index: 10;
+            /*display: none;*/
+            /*隐藏*/
+        }
+
+        #nav{
+            /*导航栏*/
+            width: 400px;
+            height: 45px;
+            background-color: white;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+        }
+        #nav div{
+            width: 57px;
+            height:54px ;
+            font-size: 10px;
+            text-align: center;
+            line-height: 20px;
+        }
+        #nav div:nth-child(4){
+            width:114px;
+            height: 54px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 13px;
+            line-height: 45px;
+            border-radius: 30px 30px;
+        }
+        #nav div:nth-child(5){
+            width:114px;
+            height: 54px;
+            background-color: yellow;
+            text-align: center;
+            color: white;
+            font-size: 13px;
+            line-height: 45px;
+            border-radius: 30px 30px;
+        }
+        /*#nav .c:hover + #gwc{*/
+        /*display: block;*/
+        /*}*/
+        .c:hover + #gwc{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<div id="li">
+    <img style="width: 400px; height: 330px"  src="https://img20.360buyimg.com/jdcms/s150x150_jfs/t1/119734/13/11853/165736/5f1b86d9Ee8d2da93/ed4888d255074cc6.jpg.webp">
+</div>
+
+<div>
+    <div style="height: 100px"></div>
+    <div style="height: 125px"></div>
+
+    <div id="gwc" style="width: 413px">
+        <div style="display: flex">
+            <div>
+                <img style="width: 100px;height: 100px" src="https://img20.360buyimg.com/jdcms/s150x150_jfs/t1/119734/13/11853/165736/5f1b86d9Ee8d2da93/ed4888d255074cc6.jpg.webp" alt="">
+            </div>
+            <div style="height: 50px;margin-top: 50px">
+                <span style="font-size: 13px;color: red">￥<i style="font-size: 17px">483</i>.00</span><br>
+                <span style="font-size: 13px">已选米白色/162053C  38/5.5  x1</span>
+            </div>
+        </div>
+        <div>款式</div>
+        <div style="display: flex;width: 413px;margin: auto">
+            <div style="font-size: 13px;background-color: #d0d0d0;border-radius: 15px 15px;color: red;margin-left: 15px">米白色/162053C </div>
+            <div style="font-size: 13px;background-color: #d0d0d0;border-radius: 15px 15px;margin-left: 15px">灰绿色/162053C</div>
+            <div style="font-size: 13px;background-color: #d0d0d0;border-radius: 15px 15px;margin-left: 15px">枣红色/162053C</div>
+            <div style="font-size: 13px;background-color: #d0d0d0;border-radius: 15px 15px;margin-left: 15px">黑色/162053C</div>
+        </div>
+        <div>鞋号</div>
+        <div style="display: flex;width: 413px;margin: auto">
+            <div style="font-size: 11px;background-color: #d0d0d0;border-radius: 12px 12px;color: red;margin-left: 15px"> 38/5.5</div>
+            <div style="font-size: 11px;background-color: #d0d0d0;border-radius: 12px 12px;margin-left: 15px">36/4.5</div>
+            <div style="font-size: 11px;background-color: #d0d0d0;border-radius: 12px 12px;margin-left: 15px">37/5.0</div>
+            <div style="font-size: 11px;background-color: #d0d0d0;border-radius: 12px 12px;margin-left: 15px">39/6.0</div>
+        </div>
+        <div>
+            <p>数量</p>
+            <div><input type="button">1<input type="button"></div>
+        </div>
+        <div style="height: 200px"></div>
+        <a href="JDdingdan1.html">
+            <div style="margin: auto;width: 377px;height: 40px;text-align: center;line-height: 35px;color: white;background-color: red;border-radius: 25px 25px">确认</div>
+        </a>
+    </div>
+    <!--导航栏-->
+    <div id="nav">
+        <div>
+            <i class="iconfont">&#xe608;</i><br>
+            <span>客服</span>
+        </div>
+        <div>
+            <i class="iconfont">&#xe688;</i><br>
+            <span>店铺</span>
+        </div>
+        <div>
+            <a href="gouwucheJD1.html">
+                <i class="iconfont">&#xe63b;</i><br>
+                <span>购物车</span>
+            </a>
+        </div>
+        <div class="c">
+            <a href="gouwucheJD1.html">
+                <span>加入购物车</span>
+            </a>
+        </div>
+        <div>
+            <span>立即购买</span>
+        </div>
+    </div>
+</div>
+<div style="height: 100px"></div>
+</body>
+</html>
